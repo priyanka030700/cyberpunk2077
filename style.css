@@ -1,0 +1,376 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy ☞";    
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    padding-top: 1px;
+}
+
+#nav{
+    padding: 0px 40px;
+    width: 100%;
+    height: 70px;
+    /* background-color: #cecece; */
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    /* background-color: brown; */
+    font-size: 24px;
+    font-weight: bold;
+}
+#logo span{
+    color: #FF4400;
+}
+#navmenu{
+    display: flex;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+#navmenu a{
+    color: #a8a8a8;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#right{
+    /* height: 100%; */
+    width: 17.60%;
+    display: flex;
+    /* background-color: aquamarine; */
+    align-items: center;
+    justify-content: space-between;
+}
+#search{
+    padding: 8px 8px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 0.5px solid #cecece;
+}
+#app{
+    padding: 8px 8px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 0.5px solid #cecece;
+}
+#search i{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    color: #575757;
+}
+#app i{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    color: #575757;
+}
+
+#back{
+    margin-top: 55px;
+    width: 100%;
+    height: calc(100% - 55px);
+    display: flex;
+    /* background-color: aqua; */
+}
+#main{
+    padding: 25px 0px;
+    width: 82%;
+    height: 100%;
+    /* background-color: #db6868; */
+}
+#top{
+    height: 55%;
+    padding: 10px 60px 0px 60px;
+    /* background-color: #df7171; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #eeeeee;
+}
+#mainHeading{
+    width: 555px;
+    /* background-color: brown; */
+    margin-right: 80px;
+    padding: 25px 70px;
+}
+#content{
+    /* width: 80%; */
+    margin-top: 20px;
+}
+#orangeline{
+    width: 30px;
+    border-radius: 30px;
+    background-color: #FF4400;
+    border: 1.5px solid #FF4400;
+    margin-bottom: 10px;
+}
+#heading{
+    font-size: 42px;
+    font-weight: 800;
+    line-height: calc(42px * 1.5);
+    color: #0a0a0a;
+}
+#image{
+    width: 580px;
+    background-image: url(cbrpnk.png);
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+}
+#buttondiv{
+    width: 260px;
+    height: auto;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 10px 30px #0a0a0a1c;
+}
+#buttondiv h1{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+#btn{
+    padding: 13px 20px;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    border-radius: 12px;
+    border: none;
+    /* font-size: 14px; */
+}
+#bottom{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 45%;
+    padding: 20px 40px;
+}
+#bottomtop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#left{
+    display: flex;
+    align-items: center;
+}
+#left i{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0a0a0a;
+}
+#left h2{
+    margin-left: 10px;
+    font-size: 22px;
+}
+#page{
+    display: flex;
+    align-items: center;
+}
+#one{
+    width: 25px;
+    height: 2px;
+    border: 2px solid #0a0a0a;
+    border-radius: 20px;
+    background-color: #0a0a0a;
+}
+.two{
+    margin-left: 10px;
+    width: 25px;
+    height: 2px;
+    border: 2px solid #d4d4d4;
+    border-radius: 20px;
+    background-color: #d4d4d4;
+}
+#bottombot{
+    width: auto;
+    height: calc(100% - 40px);
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 31%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #EEF2F2;
+    padding: 10px;
+}
+.game{
+    width: 100%;
+    height: 85%;
+    border-radius: 20px;
+    background-color: rgb(142, 151, 148);
+    margin-bottom: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-image: url(https://www.xtrafondos.com/wallpapers/vertical/the-phoenix-valorant-5652.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bg2{
+    background-image: url(https://wallpapercave.com/wp/wp4623701.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bg3{
+    background-image: url(https://www.thesixthaxis.com/wp-content/uploads/2020/08/assassins-creed-valhalla-history-500.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.game p{
+    font-size: 12px;
+    font-size: 700;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    margin-right: 5px;
+    background-color: #ebebeb36;
+}
+#absolute{
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0px 12px 12px 12px;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 20px #575757;
+}
+#absolute p{
+    background-color: #ebebeb36;
+}
+#absolute i{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card h4{
+    font-size: 16px;
+    margin-left: 15px;
+    font-weight: 800;
+    color: #0a0a0a;
+}
+#sidepanel{
+    padding-top: 25px;
+    padding-right: 20px;
+    width: 18%;
+    height: 100%;
+    background-color: #fdfdfd;
+    border-left: 0.2px solid #a7a7a757;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+.newsnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.first{
+    display: flex;
+}
+.verticalline{
+    width: 5px;
+    height: 22px;
+    background-color: #0a0a0a;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.newsnav h3{
+    font-size: 18px;
+}
+.card2{
+    margin-bottom: 15px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f0efef;
+    border-radius: 10px;
+}
+.line2{
+    width: 20px;
+    height: 2px;
+    background-color: #0a0a0a;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.cardtext{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 60%;
+    margin-right: 20px;
+}
+.cardtext p{
+    font-size: 13px;
+    font-weight: 700;
+    color: #0a0a0a;
+    margin-bottom: 8px;
+}
+.cardtext span{
+    font-size: 11px;
+    font-weight: 500;
+    color: #575757;
+}
+.card2img{
+    width: 70px;
+    height: 100px;
+    background-image: url(https://i1.wp.com/respawwn.com/wp-content/uploads/2020/07/Vasiliell-Cosplay-Cyberpunk-2077.jpg?ssl=1);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+#img2{
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/thumbnail-series-x-front-1604403362.png?crop=0.5626666666666666xw:1xh;center,top&resize=640:*);
+    background-position: center;
+    background-size: cover;
+}
+#img3{
+    background-image: url(https://mfiles.alphacoders.com/869/thumb-1920-869778.png);
+    background-position: center;
+    background-size: cover;
+}
+#list{
+    padding: 0px 20px;
+}
+#list h4{
+    font-size: 15px;
+    font-weight: 600;
+    color: #918f8f;
+    margin-bottom: 10px;
+}
+#list span{
+    margin-right: 15px;
+}
+#navmenu #active{
+    color: #0a0a0a;
+}
+#list .active{
+    color: #0a0a0a;
+}
+#topgames{
+    margin-top: 10px;
+}
+
